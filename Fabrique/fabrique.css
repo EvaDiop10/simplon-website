@@ -1,1 +1,66 @@
+.titre{
+    color: #CE0033;
+}
+.soustitre{
+    color:#CE0033 ;
+}
+.texte{
+    color: black;
+}
+h3{
+    color:#CE0033 ;
+}
+.offre{
+    background-color:#f9F4F4;
+    width: 49%;
+}
+.lien{
+    color:#CE0033 ;
 
+}
+.message{
+    height: 170px;
+}
+.check{
+    font-weight: bold ;
+}
+.T{
+    color: gray;
+}
+.ligne{
+    color:#CE0033 ;
+    
+}
+.ligne1{
+    color:#CE0033;
+    margin-top: 20px ;
+}
+.ligne2{
+    color:#CE0033;
+    margin-top: 2px ;
+}
+.ligne3{
+    color:#CE0033;
+    margin-top: 2px ;
+}
+.liste{
+    background-color: #f9F4F4;
+    font-size: 25px;
+}
+.Bouton{
+    margin-top: 2px;
+}
+li{
+    list-style-type: none;
+    font-size: 18px;
+}
+.carte{
+    border-radius: 20px ;
+    height: 150px;
+}
+.plus{
+    text-align: end;
+}
+.formulaire{
+    margin-left: 12px ;
+}

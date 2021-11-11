@@ -64,3 +64,62 @@ li{
 .formulaire{
     margin-left: 12px ;
 }
+.partenaire{
+    color: #CE0033;
+    font-weight: bold;
+}
+.logo{
+    margin-top: 100px;
+}
+.logo1{
+    margin-top:60px ;
+}
+.logo2{
+    margin-top: 90px;
+}
+.logo3{
+    margin-top: 70px;
+}
+.footer{
+    background-image: url('img/unknown11.png');
+    width: 1380px;
+    margin-left: 170px;
+    
+}
+.img1{
+    margin-top: 50px;
+}
+.reseau{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.join{
+    margin-top: 200px;
+    width: 270px;
+    
+}
+.color{
+    background-color:#CE0033 ;
+    color: blanchedalmond;
+    border: solid 0px;
+}
+.ref{
+    font-weight: bold;
+    color: blanchedalmond;
+    background-color:#CE0033 ;
+    height: 60px;
+}
+.ecriture{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.done{
+    text-align: end;
+    margin-right: 50px;
+    margin-top: -20px;
+
+}
+.contact{
+    font-weight: bold;
+    font-size: 16px;
+}

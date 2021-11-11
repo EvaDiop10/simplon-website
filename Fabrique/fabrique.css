@@ -123,3 +123,37 @@ li{
     font-weight: bold;
     font-size: 16px;
 }
+.equipe{
+    color:#CE0033 ;
+    text-align: center;
+    font-weight: bolder;
+}
+.descrip{
+    color: black;
+    text-align: center;
+}
+.name{
+    font-size: 20px;
+    font-weight: bold;
+}
+.poste{
+    color:#CE0033 ;
+    font-weight: bold;
+}
+.element{
+    color: gray;
+}
+.border{
+    height: 420px;
+    width: 350px;
+    border-radius: 5px;
+}
+.tableau3{
+    margin-left: 56px;
+}
+.tableau2{
+    margin-left: 56px;
+}
+.tableau{
+    margin-left: 56px;
+}

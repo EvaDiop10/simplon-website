@@ -157,3 +157,94 @@ li{
 .tableau{
     margin-left: 56px;
 }
+.chiffre{
+    font-weight: bold;
+    color:#CE0033 ;
+    text-align: center;
+}
+.noschiffres{
+    background-image: url("img/unknown23.png");
+    height: 200px;
+}
+.pourcentage{
+
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    
+}
+.pourcentage2{
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+}
+.pourcentage3{
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+}
+.T1{
+}
+.T2{
+    
+}
+.T3{
+}
+.valeur{
+    font-weight: bold;
+    color:#CE0033 ;
+    text-align: center;
+}
+.respect{
+    color:#CE0033 ;
+    font-size: 30px;
+}
+.point{
+    background-color: rgb(223, 185, 185)
+    ;
+    color:#CE0033 ;
+    border-radius: 100px;
+    border: solid 0px;
+    font-weight: bold;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    font-size: 30px;
+    
+}
+.border2{
+    height: 120px;
+    width: 650px;
+}
+.zeroun{
+    margin-top: 20px;
+    background-color: rgb(223, 185, 185)
+    ;
+    color:#CE0033 ;
+    border-radius: 100px;
+    border: solid 0px;
+    font-weight: bold;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    font-size: 30px;
+}
+.respect2{
+    margin-top: 50px;
+    text-align: left;
+}
+.span01{
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.triangle{
+    height: 0px;
+    width: 0px;
+    border-top : solid transparent 20px;
+    border-right: solid #CE0033 20px;
+    border-bottom: solid transparent 20px;
+    margin-top: 180px;
+    margin-left: 50px;
+}
+.Boutonvoir{
+}

@@ -183,13 +183,6 @@ li{
     font-weight: bold;
     font-size: 40px;
 }
-.T1{
-}
-.T2{
-    
-}
-.T3{
-}
 .valeur{
     font-weight: bold;
     color:#CE0033 ;
@@ -230,7 +223,7 @@ li{
     font-size: 30px;
 }
 .respect2{
-    margin-top: 50px;
+    margin-top: 25px;
     text-align: left;
 }
 .span01{
@@ -246,5 +239,60 @@ li{
     margin-top: 180px;
     margin-left: 50px;
 }
-.Boutonvoir{
+.pedagogie{
+    margin-top: 50px;
+    font-weight: bold;
+    color:#CE0033 ;
+    text-align: left;
+    font-size: 30px;
+}
+.pedagodie1{
+    font-weight: bold;
+    color:#CE0033 ;
+    font-size: 40px;
+}
+.pedagodie2{
+    font-weight: bold;
+    margin-top: -20px;
+}
+.ped{
+    width: 330px;
+    height: 240px;
+}
+.peda{
+    background-color:#CE0033 ;
+    width: 330px;
+    height: 10px;
+    margin-left:-14px;
+    margin-top:30px ;
+    border-radius: 0px;
+}
+.ped2{
+    width: 390px;
+    height: 240px;
+}
+.bloc{
+    margin-left: 320px;
+    margin-top: -500px;
+}
+.bloc2{
+    width: 130px;
+    margin-left:-55px ;
+    margin-top: -50px;
+}
+.plan{
+    margin-top: -815px;
+    margin-left: 790px;
+    height: 800px;
+    background-color:#CE0033 ;
+    border-radius: 20px;
+    width: 525px;
+}
+.plan2{
+    height: 790px;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-right: 30px;
+    width: 490px;
+    margin-left: -12px;
 }

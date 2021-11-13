@@ -82,9 +82,7 @@ li{
 }
 .footer{
     background-image: url('img/unknown11.png');
-    width: 1380px;
-    margin-left: 170px;
-    
+    width: 1380px;    
 }
 .img1{
     margin-top: 50px;
@@ -295,4 +293,52 @@ li{
     margin-right: 30px;
     width: 490px;
     margin-left: -12px;
+}
+.tiret{
+    border-radius: 100px;
+    background-color:#CE0033 ;
+    height: 15px;
+    width: 100px;
+    margin-left: 850px;
+    margin-top: 80px;
+}
+.contped{
+    font-weight: bold;
+    color:#CE0033 ;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 50px;
+    font-weight: bold;
+}
+.LogoSS{
+    height: 50px;
+    width:150px ;
+}
+.entete{
+    width:100%;
+}
+.Menu{
+    z-index: 50;
+    font-weight: bold;
+}
+.pedact{
+    color:#CE0033 ;
+}
+.recherche{
+    width: 50px;
+    height: 40px;
+}
+.fr{
+    color: black;
+
+}
+.boutoncontacter{
+    margin-left: -70px;
+}
+.barrerecherche{
+    margin-left: -85px;
+}
+.barredenav{
+    position: fixed;
+    margin-top: -50px;
 }

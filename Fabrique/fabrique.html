@@ -10,118 +10,207 @@
     <title>La Fabrique</title>
 </head>
 <body>
-    <header >
-        <div class="row-fluid">
-            <nav class="navbar Menu navbar-expand-lg navbar-light bg-white w-100 shadow-sm barredenav">  
-            <div class="col-lg-3   navbar collapse navbar-collapse  ">
-                <div class=" mx-5 " >
-                    <img src="img/simplon_senegal.png" alt="" class="LogoSS mx-5">
-                </div>
-            </div>
-            <div class="col-md-6 ">
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-5">
-                      <li class="nav-item">
-                        <a class="nav-link active mx-3" aria-current="page" href="#">Acceuil</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link active mx-3" href="#">Fabrique</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link active mx-3" href="#">Formations</a>
-                      </li> 
-                      <li class="nav-item">
-                        <a class="nav-link active mx-3" href="#">Partenariats</a>
-                      </li> 
-                      <li class="nav-item">
-                        <a class="nav-link active mx-3" href="#">Espaces</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link active mx-3" href="#">Entités</a>
-                      </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-1">
-                <div class="nav-item dropdown">
-                    <a class="nav-link  barrerecherche" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      <img src="img/unknown27.png" alt="">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white shadow  ">
+            <div class="container-fluid ms-auto">
+                <div class="col-sm-4 ">
+                    <a class="navbar-brand" href="#">
+                        <img src="img/simplon_senegal.png" alt="" class="Logo-simplon mx-5">
                     </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <li> <input type="text" placeholder= "recherche"></li>
+                </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="col-sm-5 menu d-flex justify-content-around">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                        <li class="nav-item ">
+                            <a class="nav-link active " aria-current="page" href="#">Acceuil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Fabrique</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Formation</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Partenariats</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Espaces</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Entités</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">
+                                <img src="img/unknown27.png" alt="">
+                            </a>
+                        </li>
                     </ul>
                 </div>
-            </div>
-            <div class="col-1">
-                    <div class=" ">
-                        <a class="nav-link dropdown-toggle fr" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <div class="col-sm-2 fr-et-bouton-contact d-flex ms-auto">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                    <li class="nav-item">
+                        <a class="nav-link dropdown-toggle text-black" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Fr
                         </a>
-                        <ul class="dropdown-menu " aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item " href="#">Ang</a></li>
-                            <li><hr class="dropdown-divider"></li>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><hr class="dropdown-divider"></li>
                         </ul>
-                    </div>
+                    </li>
+                    <li class="nav-item  ">                 
+                        <a class="nav-link active" aria-current="page" href="#">
+                            <button type="button" class="btn rounded-pill btn-danger bouton-contact">Contacter</button>  
+                        </a> 
+                    </ul>
+                </div>  
             </div>
-            <div class="col-1 w-25">
-                <button type="button" class="btn rounded-pill w-25 btn-danger boutoncontacter">Contacter</button>  
             </div>
-            </nav>
-        </div>
+        </nav>
     </header>
-      
-
-<div class="container">
-    <div class=" contped">
-        <h1>Notre pédagogie</h1>
-    </div>
-        <div class="row">
-            <div class="col-sm-6 col-lg-6 mt-5">
-                <iframe width="622" height="350" src="https://www.youtube.com/embed/0PeqnLq12V8" class="video-pedagogie" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h1 class="petitehistoire my-lg-5 mt-5">La petite histoire</h1>
+    <section class="container-fluid">
+        <div class="row d-flex justify-content-between align-items-center ">
+            <div class="col-sm-6 col-lg-6">
+                <div class="borderhistoire px-4">
+                    <p class="ouverturefabrique mt-5">L'ouverture de la fabrique</p>
+                    <p class="anne">2017</p>
+                </div>
             </div>
-            <div class="col-sm-6 col-lg-6 mt-5">
+            <div class="col-sm-6 col-lg-6 colonne ">
+                
+                    
+                <div class="border borderhistoire5">
+                </div>
+                <div class="border  borderhistoire4 ">
+                    <p class=" histo"> 
+                    <img src="img/unknown.png" alt="" class="mt-5"><br>
+                    Lorem ipsum, autem voluptate, deleniti nisi rerum, velit porro aut illum fugit ducimus expedita cum corporis saepe! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora, inventore? Veniam, expedita enim veritatis, dignissimos doloremque dolore esse delectus tenetur fugiat fugit nostrum? Dolorem corporis, totam esse quam accusamus ab!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque laudantium quae doloremque illo voluptatum maiores autem voluptate, de 
+                       <br> <img src="img/unknown (2).png" alt="" class="mx-5 my-5 align-items-end">
+                    <br> </p>
+                </div>
+        </div>    
+    </section> 
+    <h1 class=" contped mt-5">Notre pédagogie</h1>
+    <section class="container-fluid" >
+        <div class="row d-flex  mx-5 ">
+            <div class="col-sm-6 col-lg-6 mt-5 justify-content-center d-flex ">
+                <iframe width="500" height="350" src="https://www.youtube.com/embed/0PeqnLq12V8" class="video-pedagogie" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="col-sm-6 col-lg-6 mt-5 justify-content-start">
                 <h2 class=" pedact"> La pédagogie active</h2>
                 <p> repellat totam tempora officiis. Fugit, cumque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid expedita officiis laborum minima vero! Laboriosam ipsa adipisci nulla voluptatum optio provident? Voluptatum corrupti quam voluptatem illum tempore quisquam consequuntur?Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum ullam laboriosam recusandae odio aliquam cumque minima impedit, labore quaerat ex aperiam culpa accusantium esse delectus eum quos, ipsum porro sint! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam repudiandae magni commodi voluptates odit explicabo labore in consectetur tenetur facere reprehenderit modi cumque provident, repellat totam tempora officiis. Fugit, cumque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid expedita officiis laborum minima vero! Laboriosam ipsa adipisci nulla voluptatum optio provident? Voluptatum corrupti quam voluptatem illum tempore quisquam consequuntur?  </p>
             </div >
-        </div class= "row">
         </div>
+    </section>
     <div class=" border tiret" >
-
     </div>
-</div>
-
-<div class="container">
-    <div class="row">
-        <p class="pedagogie">Les 6 piliers de notre pédagogie</p>
-    <div class="row">
+    
+    <h1 class="pedagogie mx-5">Les 6 piliers de notre pédagogie</h1>
+    <section class="container-fluid">
+        <div class="row ">
             <div class=" col-sm-6 col-lg-6 border  Regular shadow ped mt-5">
-                    <div class="pedagodie1 mt-3 ">
-                    <p >01</p>
-                    </div> 
-                    <div class=" pedagodie2   w-100 ">
-                    <p>Devenir un professionnel compétent</p>
-                    </div>
-                    <div class=" mt-3  w-100">
-                    <p>Nous formons des apprenants à devenir <br> des professionnel compétents en <br> situation de travail grâce à l'approche <br> par compétences.</p>
-                    </div> 
-                    <div class="col bg-danger w-125 peda border">
-                    </div>
+                <div class="pedagodie1 mt-3 ">
+                <p >01</p>
+                </div> 
+                <div class=" pedagodie2   w-100 ">
+                <p>Devenir un professionnel compétent</p>
+                </div>
+                <div class=" mt-3  w-100">
+                <p>Nous formons des apprenants à devenir <br> des professionnel compétents en <br> situation de travail grâce à l'approche <br> par compétences.</p>
+                </div> 
+                <div class="col bg-danger w-125 peda border">
+                </div>
+        </div>
+        <div class="col-sm-6 col-lg-6 border mx-5 mt-5 Regular shadow ped">
+                <div class="pedagodie1 mt-3 ">
+                <p >02</p> 
+                </div> 
+                <div class=" pedagodie2   w-100 ">
+                <p>Devenir un professionnel compétent</p>
+                </div>
+                <div class=" mt-3  w-100">
+                <p>Nous formons des apprenants à devenir <br> des professionnel compétents en <br> situation de travail grâce à l'approche <br> par compétences.</p>
+                </div> 
+                <div class="col bg-danger w-125 peda border">
+                </div>  
+        </div>
+</div>
+<div class="row">
+        <div class="col-sm-6 col-lg-6 border  Regular shadow ped mt-5">
+            <div>
+                <div class="pedagodie1 mt-3 ">
+                <p >01</p>
+                </div> 
+                <div class=" pedagodie2   w-100 ">
+                <p>Devenir un professionnel compétent</p>
+                </div>
+                <div class=" mt-3  w-100">
+                <p>Nous formons des apprenants à devenir <br> des professionnel compétents en <br> situation de travail grâce à l'approche <br> par compétences.</p>
+                </div> 
+                <div class="col bg-danger w-125 peda border">
+                </div>
             </div>
-            <div class="col-sm-6 col-lg-6 border mx-5 mt-5 Regular shadow ped">
-                    <div class="pedagodie1 mt-3 ">
-                    <p >02</p> 
-                    </div> 
-                    <div class=" pedagodie2   w-100 ">
-                    <p>Devenir un professionnel compétent</p>
-                    </div>
-                    <div class=" mt-3  w-100">
-                    <p>Nous formons des apprenants à devenir <br> des professionnel compétents en <br> situation de travail grâce à l'approche <br> par compétences.</p>
-                    </div> 
-                    <div class="col bg-danger w-125 peda border">
-                    </div>  
+        </div>
+        <div class="col-sm-6 col-lg-6 border mx-5 Regular shadow ped mt-5">
+            <div>
+                <div class="pedagodie1 mt-3 ">
+                <p >01</p>
+                </div> 
+                <div class=" pedagodie2   w-100 ">
+                <p>Devenir un professionnel compétent</p>
+                </div>
+                <div class=" mt-3  w-100">
+                <p>Nous formons des apprenants à devenir <br> des professionnel compétents en <br> situation de travail grâce à l'approche <br> par compétences.</p>
+                </div> 
+                <div class="col bg-danger w-125 peda border">
+                </div>
             </div>
-    </div>
-    <div class="row">
+        </div>
+</div>
+<div class="row">
+        <div class="col-sm-6 col-lg-6 border   Regular shadow ped mt-5">
+            <div>
+                <div class="pedagodie1 mt-3 ">
+                <p >01</p>
+                </div> 
+                <div class=" pedagodie2   w-100 ">
+                <p>Devenir un professionnel compétent</p>
+                </div>
+                <div class=" mt-3  w-100">
+                <p>Nous formons des apprenants à devenir <br> des professionnel compétents en <br> situation de travail grâce à l'approche <br> par compétences.</p>
+                </div> 
+                <div class="col bg-danger w-125 peda border">
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-lg-6 border mx-5 Regular shadow ped mt-5">
+            <div>
+                <div class="pedagodie1 mt-3 ">
+                <p >01</p>
+                </div> 
+                <div class=" pedagodie2   w-100 ">
+                <p>Devenir un professionnel compétent</p>
+                </div>
+                <div class=" mt-3  w-100">
+                <p>Nous formons des apprenants à devenir <br> des professionnel compétents en <br> situation de travail grâce à l'approche <br> par compétences.</p>
+                </div> 
+                <div class="col bg-danger w-125 peda border">
+                </div>
+            </div>
+        </div>
+            <div class="col-xl-6 col-12 plan2 w-50 h-50  mt-xl-auto mt-5" >
+                <div class=" borderplan border">
+                    <img src="img/unknown26.png" alt="" class="plan2 mt-4 " style="height: 400px;width: 310px;">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+            
+        <!-- <div class="row">
             <div class="col-sm-6 col-lg-6 border  Regular shadow ped mt-5">
                 <div>
                     <div class="pedagodie1 mt-3 ">
@@ -152,8 +241,8 @@
                     </div>
                 </div>
             </div>
-    </div>
-    <div class="row">
+        </div> -->
+        <!-- <div class="row">
             <div class="col-sm-6 col-lg-6 border   Regular shadow ped mt-5">
                 <div>
                     <div class="pedagodie1 mt-3 ">
@@ -184,113 +273,103 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6 col-lg-6 border plan ">
-                <div >
-                    <img src="img/unknown26.png" alt="" class="plan2">
-                </div>
-            </div>
-    </div>
-    </div>
+        </div> -->
+        
+    
 </div>
-</div>
-
-<div class="container">
-    <div class=" valeur mt-5">
-        <h1>Nos valeurs</h1>
-    </div>
+<h1 class=" valeur mt-5">Nos valeurs</h1>
+<section class="container-fluid">
     <div class="row my-5">
-        <div class="col-sm-5 col-lg-5 my-5">
+        <div class="col-5 col-lg-5 my-5 w-25">
             <p class="respect">Respect</p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime nihil saepe unde, voluptates dolor aut. Fugit perferendis neque natus excepturi id! Illum nulla ratione dicta porro similique quibusdam nisi id? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime, modi omnis! Placeat maiores consectetur necessitatibus dolorum tempora, reprehenderit ipsam quae tempore? Non illo voluptates cumque numquam eos voluptas pariatur dignissimos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi voluptatem natus repudiandae recusandae eveniet repellendus doloremque vel aut praesentium eligendi, temporibus assumenda nobis iure delectus a accusamus, omnis officia labore. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore reiciendis, fugiat dolorum laborum rerum, esse tempore veritatis veniam totam possimus tenetur repellendus? Sed voluptatum quo atque soluta fuga laborum obcaecati.
-            <div class="bouton my-5  ">
-                <button type="button" class="btn  mt-3 rounded-pill w-25 btn-danger boutonvoir Regular shadow " style="height:50px;">Voir plus</button>
-            </div>
         </div>
-        <div class="col-sm-1 col-lg-1"> 
+        
+        <div class="col-1 col-lg-1"> 
             <div class="triangle">
                 
             </div>
         </div>    
-        <div class="col-sm-6 col-lg-6 ">
+        <div class="col-lg-6 col-12">
             <div class="row border border2 shadow-lg ">
                  <div class="col-sm-1 col-lg-1 zeroun mx-4  ">
                     <div class=" span01">
                         <span > 01</span>
                     </div>
                 </div>
-                <div class="col-sm-5 col-lg-5  respect2 w-50 " >
+                <div class="col-lg-5 col-5 respect2 w-50 " >
                     <h4 class=""> Respect</h4>
                     <p>Lorem ipsum dolor sit amet consectetur</p> 
                 </div>
-            </div>
-            <div class="row border border2 shadow-lg my-4 ">
+            </div><br>
+            <div class="row border border2 shadow-lg  ">
                 <div class="col-sm-1 col-lg-1 zeroun mx-4  ">
                    <div class=" span01">
                        <span > 02</span>
                    </div>
                </div>
-               <div class="col-sm-5 col-lg-5  respect2 w-50 " >
+               <div class="col-5 col-lg-5  respect2 w-50 " >
                    <h4 class=""> Respect</h4>
                    <p>Lorem ipsum dolor sit amet consectetur</p> 
                </div>
-           </div>
+           </div><br>
            <div class="row border border2 shadow-lg ">
                 <div class="col-sm-1 col-lg-1 zeroun mx-4  ">
                 <div class=" span01">
                     <span > 03</span>
                 </div>
                 </div>
-                <div class="col-sm-5 col-lg-5  respect2 w-50 " >
+                <div class="col-5 col-lg-5  respect2 w-50 " >
                     <h4 class=""> Respect</h4>
                     <p>Lorem ipsum dolor sit amet consectetur</p> 
                 </div>
-            </div>
+            </div><br>
             <div class="row border border2 shadow-lg my-4 ">
                 <div class="col-sm-1 col-lg-1 zeroun mx-4  ">
                     <div class=" span01">
                         <span > 04</span>
                     </div>
                 </div>
-                <div class="col-sm-5 col-lg-5  respect2 w-50 " >
+                <div class="col-5 col-lg-5  respect2 w-50 " >
                     <h4 class=""> Respect</h4>
                     <p>Lorem ipsum dolor sit amet consectetur</p> 
                 </div>
             </div>
+        </div>
     </div>
-    </div>
-</div>
 
-<div class="container">
+        <div class="row bouton my-5 w-25 ">
+            <button type="button" class="btn  mt-3 rounded-pill w-25 btn-danger boutonvoir Regular shadow " style="height:50px;">Voir plus</button>
+        </div>
+</section>
+<section class="container-fluid justify-content-around">
     <div class=" chiffre mt-5 ">
         <h1>Nos Chiffres</h1>
     </div>
     <div class=" row noschiffres mt-5 text-white ">
-        <div class="col-sm-4 col-lg-4 mt-3 ">
-            <p class="pourcentage" align="center">50%</p>
-            <p class="T1 " align="center">Des femmes dans les formations</p>
+        <div class="col-4 col-lg-4 mt-3 ">
+            <p class="pourcentage" >50%</p>
+            <p class=" text-center ">Des femmes dans les formations</p>
         </div>
-    
-        <div class="col-sm-4 col-lg-4 mt-3">
-            <p class="pourcentage2" align="center" >385</p>
-            <p class="T2" align="center">Apprenant.es. formé.es.depuis l'ouverture dans le pays</p>
+        <div class="col-4 col-lg-4 mt-3">
+            <p class="pourcentage2"  >385</p>
+            <p class="text-center" >Apprenant.es. formé.es.depuis l'ouverture dans le pays</p>
         </div>
-    
-        <div class="col-sm-4 col-lg-4 mt-3">
-            <p class="pourcentage3" align="center">96</p>
-            <p class="T3" align="center">Enfants sensibilisé.e.S au numérique</p>
+        <div class="col-4 col-lg-4 mt-3">
+            <p class="pourcentage3" >96</p>
+            <p class="text-center">Enfants sensibilisé.e.S au numérique</p>
+        </div>
     </div>
-    </div>
-</div>
-
-<div class="container">    
+</section>
+<section class="container-fluid mx">    
     <div class="equipe mt-5">
        <h1>Notre Équipe</h1>
     </div>
        <div class="descrip mt-5 "> 
        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.Doloribus praesentium temporibus autem consequatur <br> blanditiis illo necessitatibus cum corrupti voluptatibus incidunt.</p>
         </div>
-    <div class="row my-5 p-3">
-        <div class="col-sm-4 col-lg-4 border shadow-lg  tableau mx-4">
+    <div class="row my-5 p-3 d-flex justify-content-around">
+        <div class="col-sm-4 col-lg-4 border shadow-lg  tableau  mt-5">
             <div class=" mx-3">
                 <img src="img/unknown17.png" alt="" class="mt-5">
                 <div>
@@ -303,13 +382,13 @@
                 <div class="mx-2 my-4"> 
                     <img src="img/unknown18.png" alt="">
                     <img src="img/unknown19.png" alt="" class="mx-2">
-                    <img src="img/unknown20.png" alt=""class="mx-2">
+                    <img src="img/unknown20.png" alt="" class="mx-2">
                 </div>
             </div>
         </div>
-        <div class="col-sm-4  col-lg-4 border shadow-lg tableau2 ">
-            <div class=" mx-3">
-                <img src="img/unknown21.png" alt="" class="mt-5">
+        <div class="col-sm-4  col-lg-4 border shadow-lg tableau2 mt-5">
+            <div class="mx-3">
+                <img src="img/unknown21.png"  alt=""  class="mt-5">
                 <div>
                     <p class="name mt-2 mx-2 my-1">Ngor SECK</p>
                 </div>
@@ -320,11 +399,11 @@
                 <div class="mx-2 my-4"> 
                     <img src="img/unknown18.png" alt="">
                     <img src="img/unknown19.png" alt="" class="mx-2">
-                    <img src="img/unknown20.png" alt=""class="mx-2">
+                    <img src="img/unknown20.png" alt="" class="mx-2">
                 </div>
             </div>
         </div>
-        <div class="col-sm-4  col-lg-4 border shadow-lg tableau3">
+        <div class="col-sm-4  col-lg-4 border shadow-lg tableau3 mt-5">
             <div class=" mx-3">
                 <img src="img/unknown22.png" alt="" class="mt-5">
                 <div>
@@ -337,110 +416,94 @@
                 <div class="mx-2 my-4"> 
                     <img src="img/unknown18.png" alt="">
                     <img src="img/unknown19.png" alt="" class="mx-2">
-                    <img src="img/unknown20.png" alt=""class="mx-2">
+                    <img src="img/unknown20.png" alt="" class="mx-2">
                 </div>
             </div>
         </div>
 
     </div>
-</div> 
-
-<div class="container entete ">
-    <div class= "row "> 
-            <div class="text-center fw-bolder titre mt-5">
-            <h1>Recrutement</h1>
-            </div>
-    </div>
-    <div class= "row  "> 
+</section> 
+<h1 class="text-center fw-bolder titre mt-5">Recrutement</h1>
+    <section class= "row d-flex justify-content-around"> 
         <div class="col-sm-6 col-md-6 photo  ">
             <img src="img/Nouveau_projet.png" alt="" class="img-fluid rounded-3 shadow-sm p-3 mb-5 bg-body rounded  mt-4 ">
-        </div>
-        <div class="col-sm-6 col-md-6 soustitre mt-5 my-5">
-            <div class="containeur mileu">    
+        </div> 
+        <div class="col-sm-6 col-md-6 soustitre mt-5 my-5 ">
+            <div class=" mileu">    
                 <h2>Pourquoi nous rejoindre?</h2>
-                <p class="tex-break texte">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum doloribus reprehenderit, nobis non rerum fugit, molestiae amet tempore nesciunt tempora assumenda itaque corporis esse vero delectus repellat deserunt nihil dolorem. </p> 
-                <p class="tex-break texte">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum doloribus reprehenderit, nobis non rerum fugit, molestiae amet tempore nesciunt tempora assumenda itaque corporis esse vero delectus repellat deserunt nihil dolorem. </p> 
-                <p class="tex-break texte">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum doloribus reprehenderit, nobis non rerum fugit, molestiae amet tempore nesciunt tempora assumenda itaque corporis esse vero delectus repellat deserunt nihil dolorem. </p> 
+                <p class="tex-break texte tex-justify ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum doloribus reprehenderit, nobis non rerum fugit, molestiae amet tempore nesciunt tempora assumenda itaque corporis esse vero delectus repellat deserunt nihil dolorem. </p> 
+                <p class="tex-break texte tex-justify ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum doloribus reprehenderit, nobis non rerum fugit, molestiae amet tempore nesciunt tempora assumenda itaque corporis esse vero delectus repellat deserunt nihil dolorem. </p> 
+                <p class="tex-break texte tex-justify ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum doloribus reprehenderit, nobis non rerum fugit, molestiae amet tempore nesciunt tempora assumenda itaque corporis esse vero delectus repellat deserunt nihil dolorem. </p> 
+                <p class="tex-break texte tex-justify ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum doloribus reprehenderit, nobis non rerum fugit, molestiae amet tempore nesciunt tempora assumenda itaque corporis esse vero delectus repellat deserunt nihil dolorem. </p> 
 
             </div>
         </div>
-    </div>
-
-<div class="row ">
-    <div class=" offre col-6 rounded-3 mt-4 " style="height: 600px;">
-        <div class="row">
-            <div class="col-3 w-50 mt-3 mx-3">
+    </section>
+    <section class="row ">
+        <div class=" offre col-6 rounded-3 mt-4 border w-50 h-50 ">
+            <div class="row d-flex justify-content-around"> 
                 <h3>Offre en cours</h3> 
-            </div>
             <div class="row">
-                <div class="col-sm col-lg">
-                    <hr class="ligne w-100 mt-1 "></hr>
+                <div class="col-6col-sm col-lg">
+                    <hr class="ligne w-100 mt-1 ">
                     <p class=" liste mx-4 d-flex justify-content-between align-items-center">Formateur référent
-                        <span class="badge bg-danger mx-5 rounded-pill">-</span>
+                    <span class="badge bg-danger mx-5 rounded-pill">-</span>
                         <div class="row">
-                            <div class="col-sm-3 col-lg-3 w-50 mx-3">
-                               <p>Résumé du poste</p>
-                               <p class="tex-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus iste similique quos, dicta hic nam corporis! Quidem quibusdam corporis qui dolorum eligendi repellendus odio, explicabo aperiam minima. Nostrum, architecto voluptas.</p>
+                            <div class="col-lg-6 w-50 w-xl-25 mx-3">
+                                <p>Résumé du poste</p>
+                                <p class="tex-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus iste similique quos, dicta hic nam corporis! Quidem quibusdam corporis qui dolorum eligendi repellendus odio, explicabo aperiam minima. Nostrum, architecto voluptas.</p>
                             </div>
-                            <div class="carte col-sm-3 col-lg-3  w-25 shadow-lg p-3 mb-5 bg-body  bg-white">
-                                <div class="" >
+                            <div class="carte col-lg-6 w-25 w-xl-25 shadow-lg p-3 mb-5 bg-body bg-white">
+                                <div class="icone" >
                                     <div>
                                         <div><img src="img/unknown1.png" alt="" class="mx-1">CDD</div>
-                                        <div><img src="img/unknown2.png" alt=""class="mx-1">Plein temps</div>
-                                        <div> <img src="img/unknown3.png" alt=""class="mx-2">Dakar</div>                         
-                                        <div><img src="img/unknown4.png" alt=""class="mx-1 my-1">XX/YY/ZZ</div>
+                                        <div><img src="img/unknown2.png" alt="" class="mx-1">Plein temps</div>
+                                        <div> <img src="img/unknown3.png" alt="" class="mx-2">Dakar</div>                         
+                                        <div><img src="img/unknown4.png" alt="" class="mx-1 my-1">XX/YY/ZZ</div>
                                     </div>
-                                </div>    
-                            </div>
-                            <div class=" col-sm-4 col-lg-4 col-md-4 offset-md-4 w-50">
-                                <button type="button" class="btn w-50 Bouton rounded-pill  btn-danger">Postuler</button>
+                                </div>     
                             </div>
                         </div>
-                    </p>
-                    <hr class="ligne1 w-100  "></hr>
+                        <div class="row">
+                            <button type="button" class="btn w-50 Bouton rounded-pill  btn-danger">Postuler</button>
+                        </div>
+                    <hr class="ligne1 w-100  ">
+                    <p class=" liste mx-4 d-flex justify-content-between align-items-center">Formateur référent<span  class="badge bg-danger mx-5 rounded-pill">+</span></p>
+                    <hr class="ligne2 w-100  ">
                     <p class=" liste mx-4 d-flex justify-content-between align-items-center">Formateur référent
-                        <span  class="badge bg-danger mx-5 rounded-pill">+</span>
-                        
-                    </p>
-                    <hr class="ligne2 w-100  "></hr>
-                    <p class=" liste mx-4 d-flex justify-content-between align-items-center">Formateur référent
-                        <span class=" btn badge bg-danger mx-5 rounded-pill">+</span>
-                        
-                    </p>
-                    <hr class="ligne3 w-100  "></hr>  
+                        <span class=" btn badge bg-danger mx-5 rounded-pill">+</span></p>
+                    <hr class="ligne3 w-100  "> 
                 </div>
-                    <div class="row">
-                        <div class="">
-                            <p class="plus text-decoration-underline">afficher plus
-                                <img src="img/unknown5.png" alt="">
-                            </p>
-                        </div>
-                    </div>  
+                <div class="row">
+                    <div class="">
+                        <p class="plus text-decoration-underline">afficher plus
+                            <img src="img/unknown5.png" alt="">
+                        </p>
+                    </div>
+                </div>  
             </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-3 col-sm-3 w-50 ">
-                
             </div>
-        </div>
-    </div>
-        
-    <div class="col-sm-6 col-lg-6">
+            <div class="row">
+                <div class="col-lg-3 col-sm-3 w-50 ">
+                </div>
+            </div>
+        </div>   
+     <div class="col-sm-6 col-lg-6">
         <div class="row  ">
             <div class="col-lg-3 col-sm-3 w-50">
                 <div>
-                    <input type="text" class="form-control nom mt-4 " placeholder="Prénom*" aria-label="First name">
+                    <input type="text" class="form-control nom mt-4 shadow " placeholder="Prénom*" aria-label="First name">
                 </div>
                 <div>
-                    <input type="text" class="form-control nom mt-4 " placeholder="Téléphone*" aria-label="First name">
+                    <input type="text" class="form-control nom mt-4 shadow" placeholder="Téléphone*" aria-label="First name">
                 </div> 
             </div>
             <div class="col-lg-3 col-sm-3 w-50">
                 <div>
-                    <input type="text" class="form-control nom mt-4 " placeholder="Nom*" aria-label="First name">
+                    <input type="text" class="form-control nom mt-4 shadow" placeholder="Nom*" aria-label="First name">
                 </div> 
                 <div>
-                    <input type="text" class="form-control mail mt-4" placeholder="Email*" aria-label="Last name">
+                    <input type="text" class="form-control mail mt-4 shadow" placeholder="Email*" aria-label="Last name">
                 </div> 
                 <div class="lien mt-3">
                     <p class=""><img src="img/joindre-le-symbole-du-trombone.png" alt="" class="" style="height: 20px;">
@@ -451,7 +514,7 @@
         <div class="row">
             <div class="col-sm col-lg ">
                 <div>
-                    <input type="text" class="form-control nom mt-4 message " placeholder="Message*" aria-label="First name">
+                    <input type="text" class="form-control nom mt-4 message shadow " placeholder="Message*" aria-label="First name">
                 </div>
                 <div class="form-check mt-3">
                     <input class="form-check-input " type="checkbox" value="" id="flexCheckDefault">
@@ -466,95 +529,87 @@
             </div>
         </div>    
     </div>
-
-</div>   
-<div class="partenaire fs-1 text-center mt-5 text-bold">
-    Nos Partenaire
-</div>
-<div class="row  mx-4" >
-    
-    <div class="col-sm-3 col-lg-3 logo ">
-        <img src="img/unknown6.png " alt="">
-    </div>
-    <div class="col-sm-3 col-lg-3 logo1">
-        <img src="img/unknown7.png " alt="">
-    </div>
-    <div class="col-sm-3 col-lg-3 logo2">
-        <img src="img/unknown9.png  " alt="">
-    </div>
-    <div class="col-sm-3 col-lg-3 logo3">
-        <img src="img/unknown8.png " alt="">
-    </div>
-</div>  
-<div class="row  mx-4" >
-    <div class="col-sm-3 col-lg-3 logo ">
-        <img src="img/unknown6.png " alt="">
-    </div>
-    <div class="col-sm-3 col-lg-3 logo1">
-        <img src="img/unknown7.png " alt="">
-    </div>
-    <div class="col-sm-3 col-lg-3 logo2">
-        <img src="img/unknown9.png  " alt="">
-    </div>
-    <div class="col-sm-3 col-lg-3 logo3">
-        <img src="img/unknown8.png " alt="">
-    </div>
-</div>  
 </div> 
+</section>   
 
-<div class="container">
-<div class="row mt-5 footer" style="height: 430px; ">
-    <div class="col-sm-3 col-lg-3">
-        <div class="img1 mx-5">
-            <img src="img/unknown12.png " alt="">
+    <h1 class="text-center  partenaire mt-5 ">Nos Partenaire</h1> 
+<section class="containeur-fluid  fs-1 ">
+    <div class="row mx-4 d-flex justify-content-around" >
+        <div class="col-sm-3 col-lg-3 col-6 mt-4 logo ">
+            <img src="img/unknown6.png " alt="">
         </div>
-        <div class="reseau mt-5 ">
-            <div>
-                <img src="img/unknown13.png" alt="">
-                <img src="img/unknown14.png " alt="" class="mx-3">
-                <img src="img/unknown15.png" alt="">
-                <img src="img/unknown16.png" alt="">
+        <div class="col-lg-3 col-6 logo1">
+            <img src="img/unknown7.png " alt="">
+        </div>
+        <div class="col-lg-3 col-6 logo2">
+            <img src="img/unknown9.png  " alt="">
+        </div>
+        <div class="col-lg-3 col-6 logo3">
+            <img src="img/unknown8.png " alt="">
+        </div>
+    </div>  
+    <div class="row mx-4 d-flex justify-content-around" >
+        <div class=" col-lg-3 col-6 logo mt-4">
+            <img src="img/unknown6.png " alt="">
+        </div>
+        <div class=" col-lg-3 col-6 logo1">
+            <img src="img/unknown7.png " alt="">
+        </div>
+        <div class=" col-lg-3 col-6 logo2">
+            <img src="img/unknown9.png  " alt="">
+        </div>
+        <div class=" col-lg-3 col-6 logo3">
+            <img src="img/unknown8.png " alt="">
+        </div>
+    </div>  
+</section>
+<footer class="container-fluid p-0">
+    <div class="row" >
+        <div class="col">
+            <div class="img1">
+                <img src="img/unknown12.png " alt="">
+            </div>
+            <div class="reseau">
+                <div>
+                    <img src="img/unknown13.png" alt="">
+                    <img src="img/unknown14.png " alt="" class="mx-3">
+                    <img src="img/unknown15.png" alt="">
+                    <img src="img/unknown16.png" alt="">
 
+                </div>
+            </div>
+        </div>
+        <div class="col-sm text-white mt-3">
+            <p class="contact">Voir plus</p>
+            <p class=""> A propos</p>
+            <p> Notre histoire</p>
+            <p> Condition d'utilisation</p>
+            <p> Politiques de confidentialité</p>
+            <p> FAQ</p>
+        </div>
+        <div class="col-lg col-sm text-white mt-3">
+            <p class="contact">Coordonnées</p>
+            <p> Cité keur Guorgui</p>
+            <p> Dakar, Sicap, Liberté2,<br> Sénégal</p>
+            <p > simplon@email.com
+                helpsimplon@email.com </p> 
+            <p> (+221)774567890 <br>(+221) 774567890</p>
+        </div>
+        <div class="col-lg col-sm text-white mt-3">
+            <p class="contact">Notre Newsletter</p>
+            Souscrivez à notre newsletter <br> pour ne manquer <br> aucune de nos activités
+            <div class="input-group mb-3 join ">
+                <input type="text" class="form-control " placeholder="Email" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                <span class="input-group-text color" id="basic-addon2">Joindre</span>
             </div>
         </div>
     </div>
-    <div class="col-sm-3 text-white  mt-5">
-        <p class="contact">Voir plus</p>
-        <p class=""> A propos</p>
-        <p> Notre histoire</p>
-        <p> Condition d'utilisation</p>
-        <p> Politiques de confidentialité</p>
-        <p> FAQ</p>
+    <div class="row copyright p-4" >
+        <div class="d-flex flex-lg-row flex-column justify-content-lg-between justify-content-center align-items-lg-center align-items-center ref">
+            <p class="ecriture">Simplon.All rights reserved.</p>
+            <p class="done"> Made with heart By Simplon P4</p> 
+        </div>
     </div>
-    <div class="col-sm-3 mt-5 text-white">
-        <p class="contact">Coordonnées</p>
-        <p> Cité keur Guorgui</p>
-        <p> Dakar, Sicap, Liberté2,<br> Sénégal</p>
-        <p > simplon@email.com
-            helpsimplon@email.com </p> 
-        <p> (+221)774567890 <br>(+221) 774567890</p>
-            
-
-    </div>
-    
-    <div class="col-sm-3 text-white mt-5">
-        <p class="contact">Notre Newsletter</p>
-        Souscrivez à notre newsletter <br> pour ne manquer <br> aucune de nos activités
-        <div class="input-group mb-3 join ">
-            <input type="text" class="form-control " placeholder="Email" aria-label="Recipient's username" aria-describedby="basic-addon2">
-            <span class="input-group-text color" id="basic-addon2">Joindre</span>
-          </div>
-    </div>
-    <div class="col-sm ref">
-        <div class="ecriture">
-            Simplon.All rights reserved.
-        </div >
-        <div class="done">
-        Made with heart By Simplon P4
-        </div>   
-    </div>
-</div>
-</div>
-
+</footer>
 </body>
 </html>

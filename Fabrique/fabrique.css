@@ -1,6 +1,14 @@
-.titre{
-    color: #CE0033;
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+/* -----------------recrutement */
+.offre{
+    background-color:#f9F4F4;
+    border-radius: 50px;
 }
+
 .soustitre{
     color:#CE0033 ;
 }
@@ -10,10 +18,7 @@
 h3{
     color:#CE0033 ;
 }
-.offre{
-    background-color:#f9F4F4;
-    width: 49%;
-}
+
 .lien{
     color:#CE0033 ;
 
@@ -56,7 +61,6 @@ li{
 }
 .carte{
     border-radius: 20px ;
-    height: 150px;
 }
 .plus{
     text-align: end;
@@ -64,25 +68,23 @@ li{
 .formulaire{
     margin-left: 12px ;
 }
+
+/* ------------------partenaire----------- */
 .partenaire{
     color: #CE0033;
     font-weight: bold;
 }
-.logo{
-    margin-top: 100px;
-}
-.logo1{
-    margin-top:60px ;
-}
-.logo2{
-    margin-top: 90px;
-}
-.logo3{
-    margin-top: 70px;
-}
-.footer{
+
+
+/* footer */
+
+footer{
     background-image: url('img/unknown11.png');
-    width: 1380px;    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pedact{
+    color:#CE0033 ;
 }
 .img1{
     margin-top: 50px;
@@ -91,8 +93,11 @@ li{
     margin-left: 100px;
     margin-top: 20px;
 }
+.row{
+    margin: 0 !important;
+}
 .join{
-    margin-top: 200px;
+    margin-top: 00px;
     width: 270px;
     
 }
@@ -100,27 +105,34 @@ li{
     background-color:#CE0033 ;
     color: blanchedalmond;
     border: solid 0px;
-}
+} */
 .ref{
     font-weight: bold;
     color: blanchedalmond;
-    background-color:#CE0033 ;
     height: 60px;
+    width: 100%;
+}
+.copyright{
+    background-color:#CE0033 ;
+    margin: 0 !important;
+
 }
 .ecriture{
-    margin-top: 20px;
-    margin-left: 50px;
+    /* margin-top: 20px; */
+    /* margin-left: 50px; */
+    color: white;
 }
 .done{
     text-align: end;
-    margin-right: 50px;
-    margin-top: -20px;
+    /* margin-top: -40px; */
+    color: white;
 
 }
 .contact{
     font-weight: bold;
     font-size: 16px;
 }
+/* equipe */
 .equipe{
     color:#CE0033 ;
     text-align: center;
@@ -147,14 +159,15 @@ li{
     border-radius: 5px;
 }
 .tableau3{
-    margin-left: 56px;
+    margin-left: px;
 }
 .tableau2{
-    margin-left: 56px;
+    margin-left: px;
 }
 .tableau{
-    margin-left: 56px;
+    margin-left: px;
 }
+/* equipe */
 .chiffre{
     font-weight: bold;
     color:#CE0033 ;
@@ -169,17 +182,19 @@ li{
     color: white;
     font-weight: bold;
     font-size: 40px;
-    
+    text-align: center;
 }
 .pourcentage2{
     color: white;
     font-weight: bold;
     font-size: 40px;
+    text-align: center;
 }
 .pourcentage3{
     color: white;
     font-weight: bold;
     font-size: 40px;
+    text-align: center  ;
 }
 .valeur{
     font-weight: bold;
@@ -237,6 +252,7 @@ li{
     margin-top: 180px;
     margin-left: 50px;
 }
+/* --------------pedagogie-------------------------------- */
 .pedagogie{
     margin-top: 50px;
     font-weight: bold;
@@ -294,39 +310,21 @@ li{
     width: 490px;
     margin-left: -12px;
 }
-.tiret{
-    border-radius: 100px;
-    background-color:#CE0033 ;
-    height: 15px;
-    width: 100px;
-    margin-left: 850px;
-    margin-top: 80px;
-}
 .contped{
     font-weight: bold;
     color:#CE0033 ;
     font-size: 40px;
     text-align: center;
     margin-top: 50px;
+    font-weight: bold;   
+}
+/* --------header-------- */
+.menu{
     font-weight: bold;
 }
-.LogoSS{
+.Logo-simplon{
     height: 50px;
     width:150px ;
-}
-.entete{
-    width:100%;
-}
-.Menu{
-    z-index: 50;
-    font-weight: bold;
-}
-.pedact{
-    color:#CE0033 ;
-}
-.recherche{
-    width: 50px;
-    height: 40px;
 }
 .fr{
     color: black;
@@ -335,10 +333,102 @@ li{
 .boutoncontacter{
     margin-left: -70px;
 }
-.barrerecherche{
-    margin-left: -85px;
-}
 .barredenav{
     position: fixed;
     margin-top: -50px;
+}
+.recherche{
+    width: 50px;
+    height: 40px;
+}
+.barrerecherche{
+    margin-left: -85px;
+}
+/* --------header-------- */
+
+
+
+
+/* ------------lhistoire de la fabrique */
+.petitehistoire{
+    color:#CE0033 ;
+    text-align: center;
+}
+.ouverturefabrique{
+    color:white ;
+    z-index:70;
+
+}
+.borderhistoire{
+    background-color:#CE0033 ;
+    border-bottom-right-radius: 50px;
+    border-bottom: 30px #f78ba6 solid;
+    box-shadow:0 30px #f1adbe ;
+    /* width:100%; */
+    box-sizing: content-box;
+    z-index:40;
+    text-align: end ;
+    font-size:50px;
+}
+
+.anne{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: end;
+
+}
+
+ 
+ .borderhistoire4{
+    border-radius: 10px;
+    margin-top: -400px;
+    z-index: 5;
+    background-color:white ;
+    position: relative;
+    width: 450px;
+    margin-left: 40px;
+}
+.borderhistoire5{
+    z-index: 1;
+    background-color:#CE0033;
+    transform: rotate(6deg);
+    position: relative;
+    width: 450px;
+
+
+}
+.rectangle{
+    position: absolute;
+    left: 7%;
+    top: -100px;
+    z-index: 3;
+}
+.histo{
+    z-index: 4;
+    position: absolute;
+    font-style: italic;
+    background-color: white;
+    width:521px ;
+    height: 545px;
+    border-radius: 20px;
+    padding: 20px;box-shadow: -24px -7px 33px 6px rgba(152, 147, 147, 0.25);
+    /* margin-left: 50px; */
+    /* margin-right: 50px; */
+    /* margin-top: 80px; */
+}
+.g1{
+    /* margin-top: -380px; */
+    width: 40px;
+    height: 40px;
+    /* margin-left: 20px; */
+}
+.g2{
+    float: right;
+    /* margin-top: 300px; */
+    /* margin-right: 20px; */
+}
+/* histoire de la fabrique */
+h1{
+    color:#CE0033 ;
 }
